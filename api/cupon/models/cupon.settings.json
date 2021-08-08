@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cupons",
+  "info": {
+    "name": "cupon",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_provider": {
+      "model": "providers",
+      "via": "i"
+    }
+  }
+}
